@@ -1,0 +1,1 @@
+<!-- use `npm i` command in both client and server folder to install all dependencies -->

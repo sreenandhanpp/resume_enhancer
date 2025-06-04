@@ -5,12 +5,15 @@ import App from './App';
 import { BrowserRouter } from "react-router-dom"
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
+import PageContainer from './components/layout/Container';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <PageContainer>
       <App />
+    </PageContainer>
       <Toaster />
       <Analytics/>
     </BrowserRouter>

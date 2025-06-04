@@ -34,9 +34,6 @@ module.exports = {
           600: "oklch(53% 0.12 118.34)",
         },
       },
-      fontFamily: {
-        sans: ['var(--font-display)', 'ui-sans-serif', 'system-ui'],
-      },
       borderRadius: {
         lg: "0.75rem",
         xl: "1rem",
